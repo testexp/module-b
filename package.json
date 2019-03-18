@@ -1,0 +1,47 @@
+{
+  "name": "@engage/canvas-ui",
+  "version": "1.2.1",
+  "description": "Exc Canvas UI module",
+  "main": "src/index.js",
+  "source": true,
+  "repository": {
+    "url": "git@git.corp.adobe.com:engage/experience-ui.git",
+    "type": "git"
+  },
+  "author": "Engage Engteam <engage-engteam@adobe.com>",
+  "scripts": {
+    "prepack": "babel -d src/ src/"
+  },
+  "dependencies": {
+    "@react/collection-view": "^4.0.0",
+    "@react/react-spectrum": "^2.15.0",
+    "@spectrum/spectrum-variables": "^1.0.1",
+    "autobind-decorator": "^1.3.4",
+    "classnames": "^2.2.5",
+    "lodash": "^4.17.11",
+    "moment": "^2.19.4",
+    "prop-types": "^15.6.0",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-istanbul": "^4.1.1",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^3.5.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "sinon": "^4.1.2",
+    "typescript": "^3.3.3333"
+  },
+  "peerDependencies": {
+    "react": "^15 || ^16",
+    "react-dom": "^15 || ^16"
+  }
+}

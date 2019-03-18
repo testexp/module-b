@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Description",
+    "id": "ab11",
+    "minHeight": 100
+  },
+  {
+    "name": "Region",
+    "id": "ab21",
+    "minHeight": 50
+  },
+  {
+    "name": "Event Date Range",
+    "id": "ab31",
+    "minHeight": 60
+  },
+  {
+    "name": "Event Agenda",
+    "id": "ab41",
+    "minHeight": 40
+  },
+  {
+    "name": "Executive Sponsor",
+    "id": "ab51",
+    "minHeight": 40
+  },
+  {
+    "name": "Country",
+    "id": "ab61",
+    "minHeight": 70
+  },
+  {
+    "name": "Section Header",
+    "expand": true,
+    "id": "ab71",
+    "minHeight": 50
+  }
+]

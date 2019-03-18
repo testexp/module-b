@@ -1,0 +1,56 @@
+[
+  {
+    "fields": [[{
+        "name": "Description",
+        "id": "ab11",
+        "minHeight": 100
+      }],
+      [{
+        "name": "Value Proposition",
+        "id": "ab12",
+        "minHeight": 20
+      }]
+    ]
+  },
+  {
+    "fields": [[{
+        "name": "Objectives",
+        "id": "ab21",
+        "minHeight": 10
+      }],
+      [{
+        "name": "Strategy",
+        "id": "ab22",
+        "minHeight": 20
+      }]
+    ]
+  },
+  {
+    "fields": [
+      [{
+        "name": "Program Goals",
+        "id": "ab31",
+        "minHeight": 30
+      }],
+      [
+        {
+          "name": "Event Agenda",
+          "id": "ab41",
+          "minHeight": 10
+        },{
+          "name": "Executive Sponsor",
+          "id": "ab51",
+          "minHeight": 10
+        }
+      ]
+    ]
+  },
+  {
+    "fields": [[{
+        "name": "Guest Needs",
+        "id": "ab41",
+        "minHeight": 40
+      }]
+    ]
+  }
+]

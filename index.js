@@ -2,7 +2,7 @@ import {CoreContext} from '@exc/core';
 import middleware from '@engage/utils/middleware';
 import React from 'react';
 import {Route, Router} from '@exc/router';
-import TemplateBuilder from '../src/example/TemplateBuilder';
+import TemplateBuilder from './src/TemplateBuilder';
 
 export default function CanvasPackage(props) {
   return (

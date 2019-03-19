@@ -1,7 +1,10 @@
 {
-  "name": "@engage/canvas-ui",
+  "name": "module-b",
   "version": "1.0.0",
-  "description": "Exc Canvas UI module",
+  "description": "Exc App Module B",
   "main": "index.js",
-  "source": true
+  "source": true,
+  "devDependencies": {
+    "@babel/core": "^7.4.0"
+  }
 }

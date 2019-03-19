@@ -1,0 +1,7 @@
+{
+  "name": "@engage/canvas-ui",
+  "version": "1.0.0",
+  "description": "Exc Canvas UI module",
+  "main": "index.js",
+  "source": true
+}

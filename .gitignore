@@ -1,0 +1,15 @@
+.cache
+.parcel-cache
+build-artifacts
+dist
+node_modules
+
+*.log
+*.lock
+*.idea
+!yarn.lock
+
+pr-workspace
+
+coverage
+.DS_STORE

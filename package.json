@@ -2,9 +2,15 @@
   "name": "module-b",
   "version": "1.0.0",
   "description": "Exc App Module B",
-  "main": "index.js",
+  "main": "src/index.js",
   "source": true,
+  "scripts": {
+    "prepare": "./node_modules/.bin/babel -d src/ src/"
+  },
   "devDependencies": {
-    "@babel/core": "^7.4.0"
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0"
   }
 }

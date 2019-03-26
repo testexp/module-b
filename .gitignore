@@ -13,3 +13,5 @@ pr-workspace
 
 coverage
 .DS_Store
+
+tests/__snapshots__

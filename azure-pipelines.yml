@@ -3,6 +3,8 @@ resources:
     - repository: templates
       type: git
       name: spapipelineTemplate
+variables:
+- group: Secrets (1)
 
 jobs:
 - template: commonTemplate.yml@templates

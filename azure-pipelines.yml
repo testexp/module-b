@@ -4,7 +4,7 @@ resources:
       type: git
       name: spapipelineTemplate
 variables:
-- group: Secrets (1)
+- group: ExcSecrets
 
 jobs:
 - template: commonTemplate.yml@templates
